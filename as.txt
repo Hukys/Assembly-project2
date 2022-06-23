@@ -1,0 +1,7 @@
+  addi R1,R0,0
+  addi R2,R0,7
+Loop
+  beq R1,R2,End
+  addi R2,R2,-1
+  beq RO,RO,Loop
+End
